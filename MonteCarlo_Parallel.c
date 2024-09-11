@@ -5,6 +5,8 @@
 #include<math.h>
 #include<time.h>
 
+
+
 double lower = -M_PI/2;     //lower limit of integration
 double upper = M_PI/2;      //upper limit of integration
 int N = 100000000;          //number of points sampled
