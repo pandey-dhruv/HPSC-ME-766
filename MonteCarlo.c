@@ -7,9 +7,8 @@
 int main(int argc, char** argv){
     double lower = -M_PI/2;     //lower limit of integration
     double upper = M_PI/2;      //upper limit of integration
-    int N = 10000000;           //number of points sampled
+    int N = 100000000;           //number of points sampled
     double count = 0;           //maintains a count of points that fall in the desired area (under the curve)
-
     for(int i=1; i<=N; i++){
         //we sample a point in the loop
         double x = lower + M_PI*(double)rand()/(double)RAND_MAX;
